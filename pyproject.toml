@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "layoutkit"
+version = "0.1.0"
+description = "로봇 조작 시연 데이터셋의 배치(집는 곳·놓는 곳) 분석·다음 배치 추천·한 장 HTML 화면 (numpy 만 필수)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.21"]
+keywords = ["robotics", "imitation learning", "dataset", "data collection", "LeRobot"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+yaml = ["pyyaml"]
+parquet = ["pyarrow"]
+png = ["matplotlib", "pillow"]
+all = ["pyyaml", "pyarrow", "matplotlib", "pillow"]
+
+[project.scripts]
+layoutkit = "layoutkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["layoutkit*"]

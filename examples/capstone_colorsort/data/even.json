@@ -1,0 +1,1536 @@
+{
+ "name": "even",
+ "weight": 1.0,
+ "episodes": [
+  {
+   "id": "ep_000",
+   "dataset": "even",
+   "t": "2026-11-06T14:00:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -188.2,
+    "y": 591.5,
+    "yaw": -9.9
+   },
+   "goal": {
+    "x": -242.3,
+    "y": 465.2,
+    "yaw": -27.4
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 2,
+    "goal_slot": 0,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -193.8,
+     "y": 441.2,
+     "yaw": -27.4
+    },
+    {
+     "name": "rack1",
+     "x": -204.7,
+     "y": 593.5,
+     "yaw": -9.9
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 23.9
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_001",
+   "dataset": "even",
+   "t": "2026-11-06T14:02:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -148.0,
+    "y": 458.0,
+    "yaw": 28.7
+   },
+   "goal": {
+    "x": 216.7,
+    "y": 594.0,
+    "yaw": -16.2
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 3,
+    "goal_slot": 0,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 267.5,
+     "y": 580.1,
+     "yaw": -16.2
+    },
+    {
+     "name": "rack1",
+     "x": -195.8,
+     "y": 430.7,
+     "yaw": 28.7
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 29.4
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_002",
+   "dataset": "even",
+   "t": "2026-11-06T14:04:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -122.5,
+    "y": 422.9,
+    "yaw": -4.5
+   },
+   "goal": {
+    "x": 226.6,
+    "y": 524.4,
+    "yaw": -0.8
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -141.8,
+     "y": 425.7,
+     "yaw": -4.5
+    },
+    {
+     "name": "rack1",
+     "x": 206.9,
+     "y": 523.3,
+     "yaw": -0.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 25.1
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_003",
+   "dataset": "even",
+   "t": "2026-11-06T14:06:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 196.2,
+    "y": 486.1,
+    "yaw": 27.5
+   },
+   "goal": {
+    "x": 0.4,
+    "y": 630.7,
+    "yaw": 0.0
+   },
+   "discrete": {
+    "color": "black",
+    "start_slot": 1,
+    "goal_slot": null,
+    "start_fixture": "rack1",
+    "goal_fixture": "bin0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -266.9,
+     "y": 640.9,
+     "yaw": -17.5
+    },
+    {
+     "name": "rack1",
+     "x": 215.5,
+     "y": 492.2,
+     "yaw": 27.5
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 25.2
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_004",
+   "dataset": "even",
+   "t": "2026-11-06T14:08:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 239.7,
+    "y": 530.3,
+    "yaw": 16.4
+   },
+   "goal": {
+    "x": -217.9,
+    "y": 489.9,
+    "yaw": 24.9
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 3,
+    "goal_slot": 0,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -168.5,
+     "y": 511.1,
+     "yaw": 24.9
+    },
+    {
+     "name": "rack1",
+     "x": 187.7,
+     "y": 517.1,
+     "yaw": 16.4
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 25.9
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_005",
+   "dataset": "even",
+   "t": "2026-11-06T14:10:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -85.4,
+    "y": 485.2,
+    "yaw": -16.6
+   },
+   "goal": {
+    "x": -2.0,
+    "y": 628.8,
+    "yaw": 0.0
+   },
+   "discrete": {
+    "color": "black",
+    "start_slot": 3,
+    "goal_slot": null,
+    "start_fixture": "rack1",
+    "goal_fixture": "bin0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 307.4,
+     "y": 537.9,
+     "yaw": 11.6
+    },
+    {
+     "name": "rack1",
+     "x": -135.8,
+     "y": 501.6,
+     "yaw": -16.6
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 20.9
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_006",
+   "dataset": "even",
+   "t": "2026-11-06T14:12:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -161.5,
+    "y": 403.6,
+    "yaw": -21.3
+   },
+   "goal": {
+    "x": 246.8,
+    "y": 418.6,
+    "yaw": 4.1
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 0,
+    "goal_slot": 3,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 189.5,
+     "y": 411.7,
+     "yaw": 4.1
+    },
+    {
+     "name": "rack1",
+     "x": -110.9,
+     "y": 382.9,
+     "yaw": -21.3
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 20.9
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_007",
+   "dataset": "even",
+   "t": "2026-11-06T14:14:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -47.6,
+    "y": 513.8,
+    "yaw": -13.8
+   },
+   "goal": {
+    "x": 0.1,
+    "y": 627.2,
+    "yaw": 0.0
+   },
+   "discrete": {
+    "color": "black",
+    "start_slot": 3,
+    "goal_slot": null,
+    "start_fixture": "rack1",
+    "goal_fixture": "bin0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -282.6,
+     "y": 654.7,
+     "yaw": -16.2
+    },
+    {
+     "name": "rack1",
+     "x": -101.9,
+     "y": 524.2,
+     "yaw": -13.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 19.5
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_008",
+   "dataset": "even",
+   "t": "2026-11-06T14:16:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 134.4,
+    "y": 576.0,
+    "yaw": -21.8
+   },
+   "goal": {
+    "x": -229.8,
+    "y": 437.8,
+    "yaw": 29.4
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 0,
+    "goal_slot": 0,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -182.5,
+     "y": 467.9,
+     "yaw": 29.4
+    },
+    {
+     "name": "rack1",
+     "x": 184.8,
+     "y": 555.0,
+     "yaw": -21.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 21.0
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_009",
+   "dataset": "even",
+   "t": "2026-11-06T14:18:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 191.0,
+    "y": 550.5,
+    "yaw": 22.0
+   },
+   "goal": {
+    "x": -193.3,
+    "y": 502.3,
+    "yaw": -13.3
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 3,
+    "goal_slot": 1,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 139.9,
+     "y": 531.4,
+     "yaw": 22.0
+    },
+    {
+     "name": "rack1",
+     "x": -174.2,
+     "y": 496.5,
+     "yaw": -13.3
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 26.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_010",
+   "dataset": "even",
+   "t": "2026-11-06T14:20:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 130.4,
+    "y": 516.6,
+    "yaw": 3.8
+   },
+   "goal": {
+    "x": -209.8,
+    "y": 564.9,
+    "yaw": -18.8
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 3,
+    "goal_slot": 3,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -260.7,
+     "y": 583.2,
+     "yaw": -18.8
+    },
+    {
+     "name": "rack1",
+     "x": 72.3,
+     "y": 515.7,
+     "yaw": 3.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 27.7
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_011",
+   "dataset": "even",
+   "t": "2026-11-06T14:22:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -85.6,
+    "y": 498.1,
+    "yaw": 12.4
+   },
+   "goal": {
+    "x": -238.3,
+    "y": 647.4,
+    "yaw": 25.9
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 0,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -106.4,
+     "y": 494.9,
+     "yaw": 12.4
+    },
+    {
+     "name": "rack1",
+     "x": -186.5,
+     "y": 672.2,
+     "yaw": 25.9
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 24.8
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_012",
+   "dataset": "even",
+   "t": "2026-11-06T14:24:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 124.9,
+    "y": 520.7,
+    "yaw": 3.8
+   },
+   "goal": {
+    "x": -205.2,
+    "y": 567.9,
+    "yaw": -18.8
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 3,
+    "goal_slot": 3,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -260.7,
+     "y": 583.2,
+     "yaw": -18.8
+    },
+    {
+     "name": "rack1",
+     "x": 72.3,
+     "y": 515.7,
+     "yaw": 3.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 22.5
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_013",
+   "dataset": "even",
+   "t": "2026-11-06T14:26:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -187.5,
+    "y": 455.6,
+    "yaw": -16.6
+   },
+   "goal": {
+    "x": 234.9,
+    "y": 591.5,
+    "yaw": 2.2
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -208.1,
+     "y": 461.7,
+     "yaw": -16.6
+    },
+    {
+     "name": "rack1",
+     "x": 213.7,
+     "y": 589.6,
+     "yaw": 2.2
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 19.8
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_014",
+   "dataset": "even",
+   "t": "2026-11-06T14:28:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -126.3,
+    "y": 423.7,
+    "yaw": -4.5
+   },
+   "goal": {
+    "x": 225.5,
+    "y": 524.8,
+    "yaw": -0.8
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -141.8,
+     "y": 425.7,
+     "yaw": -4.5
+    },
+    {
+     "name": "rack1",
+     "x": 206.9,
+     "y": 523.3,
+     "yaw": -0.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 22.0
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_015",
+   "dataset": "even",
+   "t": "2026-11-06T14:30:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 216.8,
+    "y": 451.4,
+    "yaw": 6.1
+   },
+   "goal": {
+    "x": -157.4,
+    "y": 547.9,
+    "yaw": -1.9
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 0,
+    "goal_slot": 3,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 271.8,
+     "y": 456.6,
+     "yaw": 6.1
+    },
+    {
+     "name": "rack1",
+     "x": -212.6,
+     "y": 549.1,
+     "yaw": -1.9
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 23.5
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_016",
+   "dataset": "even",
+   "t": "2026-11-06T14:32:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 222.6,
+    "y": 612.7,
+    "yaw": -27.5
+   },
+   "goal": {
+    "x": 1.5,
+    "y": 627.1,
+    "yaw": 0.0
+   },
+   "discrete": {
+    "color": "black",
+    "start_slot": 1,
+    "goal_slot": null,
+    "start_fixture": "rack1",
+    "goal_fixture": "bin0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -212.6,
+     "y": 560.4,
+     "yaw": -24.7
+    },
+    {
+     "name": "rack1",
+     "x": 241.3,
+     "y": 602.0,
+     "yaw": -27.5
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 26.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_017",
+   "dataset": "even",
+   "t": "2026-11-06T14:34:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 220.1,
+    "y": 478.0,
+    "yaw": 4.6
+   },
+   "goal": {
+    "x": -169.3,
+    "y": 580.8,
+    "yaw": 4.4
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -187.7,
+     "y": 578.6,
+     "yaw": 4.4
+    },
+    {
+     "name": "rack1",
+     "x": 201.6,
+     "y": 475.1,
+     "yaw": 4.6
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 20.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_018",
+   "dataset": "even",
+   "t": "2026-11-06T14:36:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -232.3,
+    "y": 635.4,
+    "yaw": -1.0
+   },
+   "goal": {
+    "x": -197.6,
+    "y": 472.2,
+    "yaw": -15.4
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 3,
+    "goal_slot": 2,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -212.9,
+     "y": 474.6,
+     "yaw": -15.4
+    },
+    {
+     "name": "rack1",
+     "x": -288.8,
+     "y": 633.4,
+     "yaw": -1.0
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 22.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_019",
+   "dataset": "even",
+   "t": "2026-11-06T14:38:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 235.8,
+    "y": 412.3,
+    "yaw": 19.4
+   },
+   "goal": {
+    "x": -252.7,
+    "y": 529.8,
+    "yaw": -29.8
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 0,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 217.2,
+     "y": 406.5,
+     "yaw": 19.4
+    },
+    {
+     "name": "rack1",
+     "x": -206.3,
+     "y": 503.6,
+     "yaw": -29.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 22.0
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_020",
+   "dataset": "even",
+   "t": "2026-11-06T14:40:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -235.3,
+    "y": 585.9,
+    "yaw": 17.3
+   },
+   "goal": {
+    "x": -186.1,
+    "y": 466.5,
+    "yaw": 3.5
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 3,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -285.9,
+     "y": 566.5,
+     "yaw": 17.3
+    },
+    {
+     "name": "rack1",
+     "x": -205.2,
+     "y": 462.5,
+     "yaw": 3.5
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 20.1
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_021",
+   "dataset": "even",
+   "t": "2026-11-06T14:42:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 248.2,
+    "y": 516.0,
+    "yaw": 27.8
+   },
+   "goal": {
+    "x": -227.9,
+    "y": 429.5,
+    "yaw": -29.0
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 0,
+    "goal_slot": 1,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 299.8,
+     "y": 542.2,
+     "yaw": 27.8
+    },
+    {
+     "name": "rack1",
+     "x": -211.5,
+     "y": 420.2,
+     "yaw": -29.0
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 23.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_022",
+   "dataset": "even",
+   "t": "2026-11-06T14:44:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -233.2,
+    "y": 609.0,
+    "yaw": -29.2
+   },
+   "goal": {
+    "x": 201.4,
+    "y": 453.2,
+    "yaw": -9.1
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 1,
+    "goal_slot": 3,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 147.9,
+     "y": 460.3,
+     "yaw": -9.1
+    },
+    {
+     "name": "rack1",
+     "x": -218.1,
+     "y": 601.4,
+     "yaw": -29.2
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 26.2
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_023",
+   "dataset": "even",
+   "t": "2026-11-06T14:46:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 236.8,
+    "y": 411.0,
+    "yaw": 19.4
+   },
+   "goal": {
+    "x": -251.6,
+    "y": 531.3,
+    "yaw": -29.8
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 0,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 217.2,
+     "y": 406.5,
+     "yaw": 19.4
+    },
+    {
+     "name": "rack1",
+     "x": -206.3,
+     "y": 503.6,
+     "yaw": -29.8
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 24.7
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_024",
+   "dataset": "even",
+   "t": "2026-11-06T14:48:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 219.4,
+    "y": 476.9,
+    "yaw": 4.6
+   },
+   "goal": {
+    "x": -172.1,
+    "y": 581.3,
+    "yaw": 4.4
+   },
+   "discrete": {
+    "color": "red",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack1",
+    "goal_fixture": "rack0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -187.7,
+     "y": 578.6,
+     "yaw": 4.4
+    },
+    {
+     "name": "rack1",
+     "x": 201.6,
+     "y": 475.1,
+     "yaw": 4.6
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 22.2
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_025",
+   "dataset": "even",
+   "t": "2026-11-06T14:50:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -189.7,
+    "y": 453.9,
+    "yaw": -16.6
+   },
+   "goal": {
+    "x": 232.6,
+    "y": 589.4,
+    "yaw": 2.2
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -208.1,
+     "y": 461.7,
+     "yaw": -16.6
+    },
+    {
+     "name": "rack1",
+     "x": 213.7,
+     "y": 589.6,
+     "yaw": 2.2
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 26.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_026",
+   "dataset": "even",
+   "t": "2026-11-06T14:52:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 212.3,
+    "y": 548.9,
+    "yaw": 17.8
+   },
+   "goal": {
+    "x": -117.0,
+    "y": 520.0,
+    "yaw": -23.2
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 2,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": 194.7,
+     "y": 541.9,
+     "yaw": 17.8
+    },
+    {
+     "name": "rack1",
+     "x": -131.9,
+     "y": 525.4,
+     "yaw": -23.2
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 29.6
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_027",
+   "dataset": "even",
+   "t": "2026-11-06T14:54:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": 252.1,
+    "y": 470.1,
+    "yaw": -1.6
+   },
+   "goal": {
+    "x": 0.4,
+    "y": 628.3,
+    "yaw": 0.0
+   },
+   "discrete": {
+    "color": "black",
+    "start_slot": 2,
+    "goal_slot": null,
+    "start_fixture": "rack1",
+    "goal_fixture": "bin0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -292.7,
+     "y": 390.1,
+     "yaw": -8.4
+    },
+    {
+     "name": "rack1",
+     "x": 234.2,
+     "y": 468.0,
+     "yaw": -1.6
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 24.5
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_028",
+   "dataset": "even",
+   "t": "2026-11-06T14:56:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -232.5,
+    "y": 595.1,
+    "yaw": 14.1
+   },
+   "goal": {
+    "x": -2.8,
+    "y": 632.8,
+    "yaw": 0.0
+   },
+   "discrete": {
+    "color": "black",
+    "start_slot": 2,
+    "goal_slot": null,
+    "start_fixture": "rack0",
+    "goal_fixture": "bin0",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -251.5,
+     "y": 588.6,
+     "yaw": 14.1
+    },
+    {
+     "name": "rack1",
+     "x": 170.1,
+     "y": 538.6,
+     "yaw": 18.3
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 29.1
+   },
+   "thumbs": {},
+   "flags": []
+  },
+  {
+   "id": "ep_029",
+   "dataset": "even",
+   "t": "2026-11-06T14:58:00",
+   "outcome": "success",
+   "weight": 1.0,
+   "source": "synth",
+   "start": {
+    "x": -185.7,
+    "y": 469.0,
+    "yaw": 11.9
+   },
+   "goal": {
+    "x": 221.0,
+    "y": 403.5,
+    "yaw": 20.2
+   },
+   "discrete": {
+    "color": "green",
+    "start_slot": 3,
+    "goal_slot": 2,
+    "start_fixture": "rack0",
+    "goal_fixture": "rack1",
+    "same_fixture": false
+   },
+   "fixtures": [
+    {
+     "name": "rack0",
+     "x": -238.1,
+     "y": 458.4,
+     "yaw": 11.9
+    },
+    {
+     "name": "rack1",
+     "x": 205.6,
+     "y": 396.1,
+     "yaw": 20.2
+    },
+    {
+     "name": "bin0",
+     "x": 0.0,
+     "y": 630.0,
+     "yaw": 0.0
+    }
+   ],
+   "extra": {
+    "duration_s": 29.0
+   },
+   "thumbs": {},
+   "flags": []
+  }
+ ]
+}

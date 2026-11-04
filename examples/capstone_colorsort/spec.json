@@ -1,0 +1,51 @@
+{
+ "task": "capstone_colorsort",
+ "title": "캡스톤 예제 — 뚜껑 색으로 튜브 나누기",
+ "frame": {
+  "x_label": "x [mm] (+ = 로봇 왼쪽)",
+  "y_label": "y [mm] (로봇에서 먼 쪽)",
+  "x_left_positive": true,
+  "note": "예제 값(실물 치수·보정이 아니다). 로봇 베이스 좌표"
+ },
+ "area": {"x": [-260, 260], "y": [400, 680]},
+ "scales": {"h_xy_mm": 40.0, "h_yaw_deg": 20.0, "use_yaw": true},
+ "near_mm": 100.0,
+ "strata": [
+  {"name": "color", "values": ["red", "green", "black"], "shares": [0.375, 0.375, 0.25]},
+  {"name": "start_slot", "values": [0, 1, 2, 3]},
+  {"name": "goal_slot", "values": [0, 1, 2, 3]}
+ ],
+ "pairs": [["start.x", "goal.x"], ["start.y", "goal.y"]],
+ "layout": {
+  "kind": "fixtures",
+  "fixtures": [
+   {"name": "rack", "count": 2, "size_mm": [170.0, 40.0], "height_mm": 60.0, "slots": 4, "pitch_mm": 37.0, "slot_axis": "length",
+    "hole_r_mm": 15.0, "yaw_range": [-30.0, 30.0], "order": "fixed",
+    "note": "rack0 = 빨강 받침, rack1 = 초록 받침(받침에 색 표시). 번호가 곧 역할이라 x 로 다시 매기지 않는다(order fixed). 자리는 둘 다 영역 어디든 — 빨강 받침이 늘 같은 쪽에 있으면 '출발 쪽 → 목표 쪽' 지름길이 생긴다"},
+   {"name": "bin", "count": 1, "size_mm": [110.0, 110.0], "height_mm": 80.0, "slots": 1, "poses": [{"x": 0.0, "y": 630.0, "yaw": 0.0}],
+    "note": "버림 통(고정). 칸 하나 — goal_slot 칸 균형에는 넣지 않는다"}
+  ],
+  "items": [
+   {"name": "tube", "role": "start", "on": "rack", "symbol": "T", "above_mm": 50.0, "cap_r_mm": 17.5, "tube_r_mm": 14.3, "cap_h_mm": 10.0},
+   {"name": "place", "role": "goal", "on": "rack", "symbol": "G"}
+  ],
+  "discrete": [{"name": "color", "values": ["red", "green", "black"]}],
+  "rule": {
+   "by": "color",
+   "goal": {"red": {"fixture": "rack", "index": 0}, "green": {"fixture": "rack", "index": 1}, "black": {"fixture": "bin", "index": 0}},
+   "start_differs": true,
+   "note": "색 → 정해진 고정물. 빨강은 초록 받침에서 빨강 받침으로, 초록은 반대로, 검정은 어느 받침에서든 버림 통으로"
+  },
+  "same_fixture_allowed": false
+ },
+ "constraints": [
+  {"type": "reach", "min_mm": 300.0, "max_mm": 760.0},
+  {"type": "gap", "min_mm": 40.0},
+  {"type": "keepout", "name": "keepout_stand", "polygon": [[-45.0, 400.0], [45.0, 400.0], [45.0, 470.0], [-45.0, 470.0]], "margin_mm": 10.0,
+   "what": "fixtures", "note": "로봇 바로 앞 가운데 — 피펫 거치대 자리(예)"},
+  {"type": "hook", "name": "path_clear", "fn": "colorsort_hooks:path_clear", "args": {"clear_mm": 20.0},
+   "note": "옮기는 직선 길이 출발·목표가 아닌 다른 고정물 위를 지나지 않게(튜브 바닥이 다른 받침 뚜껑에 걸리지 않게)"}
+ ],
+ "holdout": 4,
+ "lang": "ko"
+}
